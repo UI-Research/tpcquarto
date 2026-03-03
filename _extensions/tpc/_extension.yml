@@ -1,0 +1,19 @@
+title: My Fact Sheet
+author: Your Name
+version: 1.0.0
+contributes:
+  formats:
+    html:
+      theme: [default, factsheet.scss]
+      embed-resources: true
+      template-partials:
+        - partials/title-block.html          # custom header/banner
+      filters:
+        - factsheet.lua
+      toc: false
+    pdf:
+      documentclass: article
+      template: factsheet.tex
+      filters:
+        - factsheet.lua
+      keep-tex: false

@@ -1,0 +1,19 @@
+<div class="factsheet-header">
+  <img src="_extensions/tpc/logo.png" class="logo" alt="Logo"/>
+  <div class="header-text">
+    <div class="title">$title$</div>
+$if(subtitle)$
+    <div class="subtitle">$subtitle$</div>
+$endif$
+$if(by-author)$
+    <div class="authors">
+$for(by-author)$
+      $it.name.literal$$sep$, 
+$endfor$
+    </div>
+$endif$
+$if(date)$
+    <div class="date">$date$</div>
+$endif$
+  </div>
+</div>
