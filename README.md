@@ -1,4 +1,4 @@
-# TPC QUARTO FACTSHEET TEMPLATE
+# tpcquarto: html factsheet template <img src="man/figures/hex_tpcquarto.png" align="right" height="138" alt="" />
 
 This repo is forked from [quarto-journals/article-format-template](https://github.com/quarto-journals/article-format-template)
 
