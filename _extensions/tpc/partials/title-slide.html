@@ -1,0 +1,19 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+<div class="tpc-title-slide">
+  <img src="_extensions/tpc/logo-wide.png" class="slide-logo" alt="Tax Policy Center"/>
+  <div class="slide-title">$title$</div>
+$if(subtitle)$
+  <div class="slide-subtitle">$subtitle$</div>
+$endif$
+$if(by-author)$
+  <div class="slide-author">
+$for(by-author)$
+    $it.name.literal$$sep$, 
+$endfor$
+  </div>
+$endif$
+$if(date)$
+  <div class="slide-date">$date$</div>
+$endif$
+</div>
+</section>

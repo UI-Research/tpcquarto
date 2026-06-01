@@ -1,0 +1,97 @@
+---
+title: "TAX POLICY CENTER TARIFF MODEL"
+subtitle: "Modeling tariff impacts at the state level and beyond"
+date: "February 2028"
+author:
+  - name: "Author Name"
+format:
+  tpc-revealjs: default
+---
+
+## Overview
+
+TPC's tariff model analyzes the impact of tariffs on household incomes at the **national and state levels.**
+
+::: {.two-col}
+
+::: {.col}
+**What we do**
+
+- 120 million distinct tariff rates per year
+- 10 billion rates for a 10-year estimate
+- National and state-level impacts
+:::
+
+::: {.col}
+**Who we serve**
+
+- Federal policymakers
+- State and local governments
+- Researchers and media
+:::
+
+:::
+
+## Methodology
+
+Our model handles day-to-day variations in effective tariff rates for every good from every country.
+
+::: {.box-deepblue}
+**Key Insight:** The Tax Policy Center's tariff model is the most sophisticated model housed outside of a government agency.
+:::
+
+In addition to total tariff revenues, we estimate impacts on household incomes, businesses, and the broader economy.
+
+---
+
+::: {.figure-label}
+FIGURE 1
+:::
+
+Insert your chart or figure here.
+
+::: {.note-box}
+**Note:** Data sourced from USITC trade statistics. Estimates reflect current tariff schedules.
+:::
+
+## Data Summary
+
+| Category     | Value    | Change |
+|--------------|----------|--------|
+| Total Revenue| $1.2T    | +12%   |
+| Household Avg| -$1,500  | —      |
+| State Impact | Varies   | —      |
+
+## Key Findings
+
+::: {.two-col}
+
+::: {.col}
+::: {.box-teal}
+**Bottom Quintile:** Households in the bottom income quintile bear the **largest relative burden** from tariffs as a share of income.
+:::
+:::
+
+::: {.col}
+::: {.box-light}
+**Top Quintile:** Higher-income households face a **lower effective rate** as tariff costs represent a smaller share of total spending.
+:::
+:::
+
+:::
+
+## State-Level Variation
+
+Manufacturing-heavy states face outsized impacts from retaliatory tariffs on exported goods.
+
+::: {.note-box}
+**Methodology note:** State-level estimates use a proportional allocation model based on consumption patterns and industry employment shares.
+:::
+
+## Contact & Resources
+
+Find our work at **taxpolicycenter.org**
+
+::: {.box-deepblue}
+**Get in Touch:** Our team is equipped to help state and local governments and stakeholders assess the impact of tariffs on their regional economies.
+:::
