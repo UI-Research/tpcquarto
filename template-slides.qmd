@@ -1,97 +1,106 @@
 ---
-title: "TAX POLICY CENTER TARIFF MODEL"
-subtitle: "Modeling tariff impacts at the state level and beyond"
-date: "February 2028"
+title: "YOUR PRESENTATION TITLE"
+subtitle: "A short subtitle or description"
+date: "Month Year"
 author:
   - name: "Author Name"
 format:
   tpc-revealjs: default
 ---
 
-## Overview
+## This is a Slide Header
 
-TPC's tariff model analyzes the impact of tariffs on household incomes at the **national and state levels.**
+Each `##` heading creates a new slide. Write your slide body content
+beneath it using standard Markdown:
+
+- Use **bold** or *italic* for emphasis
+- Add bullet points like these
+- Or write plain paragraphs
+
+Replace this text with your own content.
+
+## This Slide Uses a Two-Column Layout
+
+Wrap content in `.two-col` and `.col` divs to create a side-by-side layout. You must open and close divs with `:::` syntax.
 
 ::: {.two-col}
 
 ::: {.col}
-**What we do**
+**Left Column**
 
-- 120 million distinct tariff rates per year
-- 10 billion rates for a 10-year estimate
-- National and state-level impacts
+Use this column for your first point, a chart, or a list.
 :::
 
 ::: {.col}
-**Who we serve**
+**Right Column**
 
-- Federal policymakers
-- State and local governments
-- Researchers and media
+Use this column for a contrasting point, a second chart, or supporting detail.
 :::
 
 :::
 
-## Methodology
+## This Slide Uses Colored Callout Boxes
 
-Our model handles day-to-day variations in effective tariff rates for every good from every country.
+Three box styles are available. Place any content inside them.
+
+::: {.box-teal}
+**Teal Box** — Good for highlights or key stats.
+:::
 
 ::: {.box-deepblue}
-**Key Insight:** The Tax Policy Center's tariff model is the most sophisticated model housed outside of a government agency.
+**Deep Blue Box** — Good for key insights or quotes.
 :::
 
-In addition to total tariff revenues, we estimate impacts on household incomes, businesses, and the broader economy.
+::: {.box-light}
+**Light Box** — Good for supporting context or secondary information.
+:::
+
+## This Slide Uses a Note Box
+
+Use `.note-box` for methodology notes, caveats, or source citations.
+
+Your main slide content goes here. Describe your finding or data point.
+
+::: {.note-box}
+**Note:** Use this box for footnotes, data sources, or methodological caveats that support the slide content above.
+:::
 
 ---
+
+<!-- A `---` rule creates a slide with no header — useful for full-bleed figures. -->
 
 ::: {.figure-label}
 FIGURE 1
 :::
 
-Insert your chart or figure here.
+Insert your chart or figure here. You can embed an image with:
+`![](path/to/your-image.png)`
 
 ::: {.note-box}
-**Note:** Data sourced from USITC trade statistics. Estimates reflect current tariff schedules.
+**Source:** Describe where this figure's data came from.
 :::
 
-## Data Summary
+## This Slide Has a Table
 
-| Category     | Value    | Change |
-|--------------|----------|--------|
-| Total Revenue| $1.2T    | +12%   |
-| Household Avg| -$1,500  | —      |
-| State Impact | Varies   | —      |
+Use standard Markdown table syntax. Quarto handles the formatting.
 
-## Key Findings
+| Column A     | Column B | Column C |
+|--------------|----------|----------|
+| Row 1 value  | $0.0B    | +0%      |
+| Row 2 value  | $0.0B    | —        |
+| Row 3 value  | Varies   | —        |
 
-::: {.two-col}
+## This is a Section Divider Slide {.section-slide}
 
-::: {.col}
-::: {.box-teal}
-**Bottom Quintile:** Households in the bottom income quintile bear the **largest relative burden** from tariffs as a share of income.
-:::
-:::
-
-::: {.col}
-::: {.box-light}
-**Top Quintile:** Higher-income households face a **lower effective rate** as tariff costs represent a smaller share of total spending.
-:::
-:::
-
-:::
-
-## State-Level Variation
-
-Manufacturing-heavy states face outsized impacts from retaliatory tariffs on exported goods.
-
-::: {.note-box}
-**Methodology note:** State-level estimates use a proportional allocation model based on consumption patterns and industry employment shares.
-:::
+Add `{.section-slide}` to a slide header to apply the dark blue
+section-divider style. Use this to separate major sections of your
+presentation.
 
 ## Contact & Resources
 
-Find our work at **taxpolicycenter.org**
+Replace this slide with your team's contact information or links to
+supporting materials.
 
 ::: {.box-deepblue}
-**Get in Touch:** Our team is equipped to help state and local governments and stakeholders assess the impact of tariffs on their regional economies.
+**Get in Touch:** taxpolicycenter.org
 :::

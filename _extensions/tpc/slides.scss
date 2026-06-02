@@ -81,11 +81,20 @@ $link-color: rgb(0, 139, 176); // $teal
 .reveal .slides section.section-slide {
   background: $deepblue;
   color: white;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  height: 100% !important;
+  top: 0 !important;
 }
 .reveal .slides section.section-slide h1,
 .reveal .slides section.section-slide h2 {
   color: white;
   border-bottom: 2px solid $teal;
+  text-align: left;
+  width: 100%;
 }
 
 // ── Colored callout boxes ────────────────────────────────────────────────────

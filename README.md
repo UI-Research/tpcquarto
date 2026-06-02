@@ -2,11 +2,68 @@
 
 A collection of Tax Policy Center–branded Quarto templates for factsheets, slides, and reports.
 
-## Installation
+---
+
+## What is Quarto?
+
+[Quarto](https://quarto.org) is an open-source publishing system that lets you write documents, presentations, and reports using plain text (Markdown) mixed with code. It can render to HTML, PDF, Word, and more — all from a single `.qmd` file.
+
+---
+
+## Prerequisites: Installing Quarto
+
+Before using this theme library, you need Quarto installed on your machine.
+
+1. Go to [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/)
+2. Download and run the installer for your operating system (macOS, Windows, or Linux)
+3. Verify the installation by running this in your terminal:
 
 ```
-quarto add nikhitaairi/tpcquarto
+quarto --version
 ```
+
+You should see a version number like `1.5.x`. If not, restart your terminal and try again.
+
+> **Tip:** Quarto works great alongside VS Code (with the [Quarto extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)) or RStudio, both of which provide live preview.
+
+---
+
+## Quickstart
+
+### 1. Install this extension
+
+Navigate to your project folder in the terminal, then run:
+
+```
+quarto add UI-Research/tpcquarto
+```
+
+This downloads the TPC theme files into an `_extensions/` folder in your project. You only need to do this once per project.
+
+### 2. Copy a template
+
+Copy one of the provided template files into your project and rename it:
+
+- `template.qmd` → for an HTML factsheet
+- `template-slides.qmd` → for a slide deck
+
+### 3. Render your document
+
+To preview your document in a browser with live reloading:
+
+```
+quarto preview my-slides.qmd
+```
+
+To render a final output file:
+
+```
+quarto render my-slides.qmd
+```
+
+The output `.html` file will appear in the same directory.
+
+---
 
 ---
 
