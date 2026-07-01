@@ -1,0 +1,172 @@
+/*-- scss:defaults --*/
+
+// Brand tokens are loaded via shared/_brand.scss in the theme array.
+// RevealJS-specific variable overrides:
+$presentation-font-size-root: 40px;
+$presentation-h1-font-size: 1.6em;
+$presentation-h2-font-size: 1.2em;
+$presentation-h3-font-size: 1em;
+$link-color: rgb(0, 139, 176); // $teal
+
+/*-- scss:rules --*/
+
+// ── Slide base ───────────────────────────────────────────────────────────────
+
+.reveal {
+  font-family: $font-family-sans-serif;
+  color: $black;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family: $font-family-sans-serif;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.reveal h1 { color: $deepblue; }
+.reveal h2 { color: $deepblue; border-bottom: 2px solid $teal; padding-bottom: 0.2em; }
+.reveal h3 { color: $teal; }
+
+// ── Title slide ──────────────────────────────────────────────────────────────
+
+.reveal .slides section.title-slide {
+  text-align: left;
+  padding: 2rem;
+}
+
+.tpc-title-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 2rem;
+  background: white;
+  border-top: 6px solid $teal;
+}
+
+.tpc-title-slide .slide-logo {
+  height: 50px;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.tpc-title-slide .slide-title {
+  font-size: 1.6em;
+  font-weight: 700;
+  color: $deepblue;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.tpc-title-slide .slide-subtitle {
+  font-size: 1em;
+  font-weight: 400;
+  color: $darkgray;
+  margin-bottom: 1.5rem;
+}
+
+.tpc-title-slide .slide-author {
+  font-size: 0.75em;
+  color: $darkgray;
+}
+
+.tpc-title-slide .slide-date {
+  font-size: 0.7em;
+  color: $lightgray;
+  margin-top: 0.25rem;
+}
+
+// ── Section divider slides ───────────────────────────────────────────────────
+
+.reveal .slides section.section-slide {
+  background: $deepblue;
+  color: white;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  height: 100% !important;
+  top: 0 !important;
+}
+.reveal .slides section.section-slide h1,
+.reveal .slides section.section-slide h2 {
+  color: white;
+  border-bottom: 2px solid $teal;
+  text-align: left;
+  width: 100%;
+}
+
+// ── Colored callout boxes ────────────────────────────────────────────────────
+
+.reveal .box-teal {
+  background-color: $teal;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+.reveal .box-deepblue {
+  background-color: $deepblue;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}
+.reveal .box-light {
+  background-color: lighten($lightgray, 15%);
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}
+.reveal .note-box {
+  border-left: 4px solid $poppy;
+  background: lighten($lightgray, 15%);
+  padding: 0.6rem 0.8rem;
+  font-size: 0.75em;
+}
+
+// ── Two-column layout ────────────────────────────────────────────────────────
+
+.reveal .two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+// ── Figure label ─────────────────────────────────────────────────────────────
+
+.reveal .figure-label {
+  font-weight: 700;
+  font-size: 0.65em;
+  color: $poppy;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+// ── Tables ───────────────────────────────────────────────────────────────────
+
+.reveal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75em;
+}
+.reveal table thead tr {
+  border-bottom: 2px solid $teal;
+  background-color: transparent !important;
+  color: $black !important;
+}
+.reveal table th {
+  background-color: transparent !important;
+  font-weight: 700;
+  color: $deepblue !important;
+}
+.reveal table td, .reveal table th {
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+
+// ── Footer / progress bar ────────────────────────────────────────────────────
+
+.reveal .progress {
+  color: $teal;
+}

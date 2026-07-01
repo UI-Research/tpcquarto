@@ -1,19 +1,23 @@
-title: My Fact Sheet
-author: Your Name
-version: 1.0.0
+title: TPC Quarto Theme Library
+author: Tax Policy Center
+version: 1.1.0
 contributes:
   formats:
     html:
-      theme: [default, factsheet.scss]
+      theme: [default, shared/_brand.scss, factsheet.scss]
       embed-resources: true
       template-partials:
-        - partials/title-block.html          # custom header/banner
+        - partials/title-block.html
       filters:
         - factsheet.lua
       toc: false
-    pdf:
-      documentclass: article
-      template: factsheet.tex
+    revealjs:
+      theme: [default, shared/_brand.scss, slides.scss]
+      embed-resources: true
+      template-partials:
+        - partials/title-slide.html
       filters:
-        - factsheet.lua
-      keep-tex: false
+        - slides.lua
+      slide-number: true
+      controls: true
+      progress: true
